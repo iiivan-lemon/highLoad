@@ -86,7 +86,7 @@
 ##### Итог 
 Всего: 37407 RPS
 
-
+|        |               |
 |--------|---------------|
 |Свайп   | 9260 RPS      |
 |Фото    | 27777 RPS     |
@@ -95,3 +95,9 @@
 |Профиль | 3 RPS         |
 |Итого   | 37407 RPS     |
  
+#### Источники
+1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
+2. https://www.knowyourmobile.com/ru/news/tinder-stats-facts/
+3. https://www.businessofapps.com/data/tinder-statistics/
+4. https://www.huffingtonpost.co.uk/entry/how-to-get-tinder-matches_n_56a78f4be4b0172c659422da
+5. https://www.reuters.com/article/us-match-group-results-idUSKBN2A22V1
