@@ -93,7 +93,6 @@
 |Мэтчи   | 265 RPS       |
 |Чаты    | 242 RPS       |
 |Профиль | 3 RPS         |
-|Итого   | 37407 RPS     |
  
 #### Источники
 1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
