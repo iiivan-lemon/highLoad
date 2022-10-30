@@ -91,7 +91,7 @@
 |Список чатов  | 150 RPS       |
 |Сообщения     | 116 RPS       |
 |Профиль       | 2 RPS         |
-|Итого         | 111770 RPS    |
+|Итого         | 74758 RPS     |
  
 #### Источники
 1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
