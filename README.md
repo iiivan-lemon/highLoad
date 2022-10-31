@@ -92,7 +92,9 @@
 |Сообщения     | 116 RPS       |
 |Профиль       | 2 RPS         |
 |Итого         | 74758 RPS     |
- 
+## 3. Логическая схема БД
+ ![image](https://user-images.githubusercontent.com/74594938/199004619-14e64377-31fb-4468-af1b-3915008cb9b9.png)
+
 #### Источники
 1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
 2. https://www.knowyourmobile.com/ru/news/tinder-stats-facts/
