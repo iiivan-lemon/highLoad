@@ -99,7 +99,7 @@
 #### Базы данных
 PostgreSQL: Users, Matches. Выбрана как наиболее надежная и популярная реляционная БД.\
 Redis: Session, Swipe, Message, Photo. Выбрана из-за быстрой обработки запросов.\
-Amazon S3: хранение фотографий. Выбрана из-за высокой надежности, доступности, производительности и безопасности в отрасли хранения изображений.\
+Amazon S3: хранение фотографий. Выбрана из-за высокой надежности, доступности, производительности и безопасности в отрасли хранения изображений.
 #### Источники
 1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
 2. https://www.knowyourmobile.com/ru/news/tinder-stats-facts/
