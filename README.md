@@ -96,7 +96,10 @@
  ![image](https://user-images.githubusercontent.com/74594938/199004619-14e64377-31fb-4468-af1b-3915008cb9b9.png)
 ## 4. Физическая схема БД
 ![image](https://user-images.githubusercontent.com/74594938/201211128-c59cc06d-bab7-429b-a5ab-1dd8f8026674.png)
-
+### Базы данных
+PostgreSQL: Users, Photos, Messages. Выбрана как наиболее надежная и популярная реляционная БД.\
+Redis: Sessions, Swipes, Matches. Выбрана из-за высокой скорости работы.\
+Amazon S3: хранение фотографий. Выбрана из-за высокой надежности, доступности, производительности и безопасности в отрасли хранения изображений.\
 #### Источники
 1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
 2. https://www.knowyourmobile.com/ru/news/tinder-stats-facts/
