@@ -94,6 +94,8 @@
 |Итого         | 74758 RPS     |
 ## 3. Логическая схема БД
  ![image](https://user-images.githubusercontent.com/74594938/199004619-14e64377-31fb-4468-af1b-3915008cb9b9.png)
+## 4. Физическая схема БД
+![image](https://user-images.githubusercontent.com/74594938/201210733-f39e9592-07e4-4141-8a6c-1d0319cd0eb5.png)
 
 #### Источники
 1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
