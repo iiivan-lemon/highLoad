@@ -95,6 +95,57 @@
 ## 3. Логическая схема БД
  ![image](https://user-images.githubusercontent.com/74594938/199004619-14e64377-31fb-4468-af1b-3915008cb9b9.png)
 ## 4. Физическая схема БД
+Photo:\
+| Поле | Тип | Размер |
+| --- | --- | --- |
+| Photo id | bigint | 8 |
+| User id | bigint | 8 |
+| S3 link | varchar(256)  | 256 |
+
+Match:\
+| Поле | Тип | Размер |
+| --- | --- | --- |
+| Match id | bigint | 8 |
+| First user id | bigint | 8 |
+| Second user id | bigint | 8 |
+
+Message:\
+| Поле | Тип | Размер |
+| --- | --- | --- |
+| Message id | bigint | 8 |
+| User sender id | bigint | 8 |
+| User receiver id | timestamp | 8 |
+| Text | text | 256 |
+| Time sending | timestamp | 8 |
+
+Session:\
+| Поле | Тип | Размер |
+| --- | --- | --- |
+| Session id | bigint | 8 |
+| User id | bigint | 8 |
+| Session token | varchar(256) | 256 |
+
+Swipe:\
+| Поле | Тип | Размер |
+| --- | --- | --- |
+| Swipe id | bigint | 8 |
+| User id | bigint | 8 |
+| User target id | bigint | 8 |
+| value | boolean | 1 |
+
+User:\
+| Поле | Тип | Размер |
+| --- | --- | --- |
+| User id | bigint | 8 |
+| Name | timestamp | 8 |
+| Age | varchar(20) | 20 |
+| Sex | varchar(20) | 20 |
+| City | varchar(20) | 20 |
+| Hobby | varchar(100) | 100 |
+| Job  | varchar(100) | 100 |
+| Education | varchar(100) | 100 |
+| Social network accounts | varchar(100) | 100 |
+
 ![image](https://user-images.githubusercontent.com/74594938/201211128-c59cc06d-bab7-429b-a5ab-1dd8f8026674.png)
 #### Базы данных
 PostgreSQL: User, Match. Выбрана как наиболее надежная и популярная реляционная БД.\
