@@ -169,8 +169,23 @@ PostgreSQL,Redis  | Database
 Для балансировки на Backend и отдачи статических файлов будет использован веб-сервер Nginx, который активно применяется в этих сферах.\
 Для Backend части будет использован язык программирования Go, который используется для написания высоконагруженных веб-сервисов.\
 Как СУБД будут использованы PostgreSQL и Redis, которые обладают хорошими функциональностью и поддержкой.
+## 6. Схема проекта
+![image](https://user-images.githubusercontent.com/74594938/201472968-1fb412bf-e257-458f-a1d1-9e9fd12bc1b8.png)
+DNS-балансировка\
+L7-балансировка\
+Backend на микросервисной архитектуре
+## 7. Список серверов
+Nginx
 
+| CPU | RAM | SSD |
+| --- | --- | --- |
+| 128 | 64 Gb | 128 Gb |
 
+Golang-Backend
+
+| CPU | RAM | SSD |
+| --- | --- | --- |
+| 64 | 64 Gb | 128 Gb |
 #### Источники
 1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
 2. https://www.knowyourmobile.com/ru/news/tinder-stats-facts/
