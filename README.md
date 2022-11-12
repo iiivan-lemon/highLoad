@@ -179,13 +179,13 @@ Nginx
 
 | CPU | RAM | SSD |
 | --- | --- | --- |
-| 128 | 64 Gb | 128 Gb |
+| 16  | 32 Гб | 256 Гб|  
 
 Golang-Backend
 
 | CPU | RAM | SSD |
 | --- | --- | --- |
-| 64 | 64 Gb | 128 Gb |
+| 32  | 256 Гб | 256 Гб |
 #### Источники
 1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
 2. https://www.knowyourmobile.com/ru/news/tinder-stats-facts/
