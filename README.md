@@ -95,21 +95,21 @@
 ## 3. Логическая схема БД
  ![image](https://user-images.githubusercontent.com/74594938/199004619-14e64377-31fb-4468-af1b-3915008cb9b9.png)
 ## 4. Физическая схема БД
-Photo:
+Photos:
 | Поле | Тип | Размер |
 | --- | --- | --- |
 | Photo id | bigint | 8 |
 | User id | bigint | 8 |
 | S3 link | varchar(256)  | 256 |
 
-Match:
+Matches:
 | Поле | Тип | Размер |
 | --- | --- | --- |
 | Match id | bigint | 8 |
 | First user id | bigint | 8 |
 | Second user id | bigint | 8 |
 
-Message:
+Messages:
 | Поле | Тип | Размер |
 | --- | --- | --- |
 | Message id | bigint | 8 |
@@ -118,14 +118,14 @@ Message:
 | Text | text | 256 |
 | Time sending | timestamp | 8 |
 
-Session:
+Sessions:
 | Поле | Тип | Размер |
 | --- | --- | --- |
 | Session id | bigint | 8 |
 | User id | bigint | 8 |
 | Session token | varchar(256) | 256 |
 
-Swipe:
+Swipes:
 | Поле | Тип | Размер |
 | --- | --- | --- |
 | Swipe id | bigint | 8 |
@@ -133,7 +133,7 @@ Swipe:
 | User target id | bigint | 8 |
 | value | boolean | 1 |
 
-User:
+Users:
 | Поле | Тип | Размер |
 | --- | --- | --- |
 | User id | bigint | 8 |
@@ -148,8 +148,8 @@ User:
 
 ![image](https://user-images.githubusercontent.com/74594938/201471630-f0c3470e-6e22-4866-995f-5be257e057de.png)
 #### Базы данных
-PostgreSQL: User, Match. Выбрана как наиболее надежная и популярная реляционная БД.\
-Redis: Session, Swipe, Message, Photo. Выбрана из-за быстрой обработки запросов.\
+PostgreSQL: Users, Matches, Swipes. Выбрана как наиболее надежная и популярная реляционная БД.\
+Redis: Sessions, Messages, Photos. Выбрана из-за быстрой обработки запросов.\
 Amazon S3: хранение фотографий. Выбрана из-за высокой надежности, доступности, производительности и безопасности в отрасли хранения изображений.
 Будем использовать шардирование по регионам, так как Tinder используется для локальных знакомств.\
 
