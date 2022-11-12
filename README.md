@@ -146,7 +146,7 @@ User:
 | Education | varchar(100) | 100 |
 | Social network accounts | varchar(100) | 100 |
 
-![image](https://user-images.githubusercontent.com/74594938/201211128-c59cc06d-bab7-429b-a5ab-1dd8f8026674.png)
+![image](https://user-images.githubusercontent.com/74594938/201471630-f0c3470e-6e22-4866-995f-5be257e057de.png)
 #### Базы данных
 PostgreSQL: User, Match. Выбрана как наиболее надежная и популярная реляционная БД.\
 Redis: Session, Swipe, Message, Photo. Выбрана из-за быстрой обработки запросов.\
