@@ -100,7 +100,7 @@ Photos:
 | --- | --- | --- |
 | Photo id | bigint | 8 |
 | User id | bigint | 8 |
-| S3 link | varchar(256)  | 256 |
+| Photo url | varchar(256)  | 256 |
 
 Matches:
 | Поле | Тип | Размер |
