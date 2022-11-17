@@ -94,7 +94,7 @@
 |Профиль       | 2 RPS         |
 |Итого         | 37723 RPS     |
 ## 3. Логическая схема БД
- ![image](https://user-images.githubusercontent.com/74594938/199004619-14e64377-31fb-4468-af1b-3915008cb9b9.png)
+![image](https://user-images.githubusercontent.com/74594938/202544393-1d97bf01-7659-4fdd-8434-25990070c7cc.png)
 ## 4. Физическая схема БД
 Photos:
 | Поле | Тип | Размер |
@@ -167,10 +167,10 @@ Users:
 На 100 миллионов аккаунтов
 Общий размер: 100 * 10^6 * 520 = 48 Гб
 
-![image](https://user-images.githubusercontent.com/74594938/201471630-f0c3470e-6e22-4866-995f-5be257e057de.png)
+![image](https://user-images.githubusercontent.com/74594938/202545243-12342f17-af2d-45c8-ad96-44b2425fe40b.png)
 #### Базы данных
-PostgreSQL: Users, Matches, Swipes\
-Redis: Sessions, Messages, Photos.\
+PostgreSQL: Users, Matches, Swipes, Messages\
+Redis: Sessions,  Photos.\
 Amazon S3: хранение фотографий.
 #### Схема шардинга
 Будем использовать шардирование по регионам, так как Tinder используется для локальных знакомств.\
