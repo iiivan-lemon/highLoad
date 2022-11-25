@@ -92,7 +92,7 @@
 |Профиль       | 2 RPS         |
 
 ## 3. Логическая схема БД
-![image](https://user-images.githubusercontent.com/74594938/202544393-1d97bf01-7659-4fdd-8434-25990070c7cc.png)
+![image](https://user-images.githubusercontent.com/74594938/204008143-00bea196-43a3-4f1f-a15c-b678c90f9448.png)
 ## 4. Физическая схема БД
 
 | Таблица | Общий размер | RPS insert | RPS select |
@@ -211,7 +211,8 @@ Users:
   | Messages | User sender id | необходимо для запросов на получение сообщений |
   | Messages | User receiver id | необходимо для запросов на получение сообщений |
 
-![image](https://user-images.githubusercontent.com/74594938/202545243-12342f17-af2d-45c8-ad96-44b2425fe40b.png)
+![image](https://user-images.githubusercontent.com/74594938/204007917-adc9551b-1e4f-4b87-a2a5-f0c00391d1af.png)
+
 #### Базы данных
 PostgreSQL: Users, Matches, Swipes, Messages\
 Redis: Sessions,  Photos.\
