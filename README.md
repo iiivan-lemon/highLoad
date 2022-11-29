@@ -287,7 +287,9 @@ JS-клиент и статические файлы раздаются Nginx, �
 Трафик вносят запросы на чтение и создание мэтчей\
 на одно ядро процессора примем RPS = 1\
 ` 230 RPS/1 RPS = 230 ядер = 40 ядер * 6 сервер`\
-
+### Cache proxy
+### PostgreSQL
+### Redis
 
 #### Источники
 1. https://vc.ru/services/68840-obzor-rynka-onlayn-znakomstv-skolko-zarabatyvayut-prilozheniya-i-kakie-biznes-modeli-ispolzuyut?ysclid=l879uyof0632857830
