@@ -215,7 +215,7 @@ Users:
   | Messages | User sender id | необходимо для запросов на получение сообщений |
   | Messages | User receiver id | необходимо для запросов на получение сообщений |
 
-![image](https://user-images.githubusercontent.com/74594938/204007917-adc9551b-1e4f-4b87-a2a5-f0c00391d1af.png)
+![image](https://user-images.githubusercontent.com/74594938/204601463-16a9c872-64a2-4ab5-9ae0-d50fad1cf019.png)
 
 #### Базы данных
 PostgreSQL: Users, Matches, Swipes, Messages\
