@@ -242,6 +242,7 @@ Amazon S3: хранение фотографий.
 | Swipes   | User id    |
 | Matches  | Match id |
 | Messages | Match id |
+| Photos   | User id   | 
 
 
 ## 5. Технологии
